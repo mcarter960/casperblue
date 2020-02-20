@@ -1,2 +1,2 @@
-# ghost-attila-fork
-Fork of Ghost Blog theme Attila by Peter Amende zutrinken
+# ghost-casperblue
+Changing default Dark Grey color scheme to Dark Blue
