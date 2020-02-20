@@ -7,7 +7,7 @@ If you're just looking to download the latest release of Ghost with the default 
 
 &nbsp;
 
-![screenshot-desktop](https://user-images.githubusercontent.com/353959/66987533-40eae100-f0c1-11e9-822e-cbaf38fb8e3f.png)
+![screenshot-desktop](https://github.com/mcarter960/ghost-casperblue/blob/master/assets/casperblue.jpg)
 
 &nbsp;
 
