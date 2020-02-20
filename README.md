@@ -1,6 +1,9 @@
-# Casper
+# Casper Blue
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper! If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
+Casper is the default theme for [Ghost](http://github.com/tryghost/ghost/). I did not care for the Default Dark Grey Color scheme, so I changed the SCREEN.CSS and GLOBAL.CSS files to a Dark Blue Color scheme.
+
+
+If you're just looking to download the latest release of Ghost with the default Casper Theme, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
 
 &nbsp;
 
