@@ -2680,6 +2680,7 @@ Usage (In Ghost editor):
 	display: block;
 	padding: 14px 20px;
 	width: 100%;
+	height: 46px;
 	border: 1px solid;
 	color: var(--midgrey);
 	font-size: 2rem;
