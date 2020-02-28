@@ -1,4 +1,4 @@
-# Casper Blue
+# Casper Blue Theme
 
 Casper is the default theme for [Ghost](http://github.com/tryghost/ghost/). I did not care for the Default Dark Grey Color scheme, so I changed the SCREEN.CSS and GLOBAL.CSS files to a Dark Blue Color scheme.
 
