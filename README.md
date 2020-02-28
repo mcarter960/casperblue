@@ -35,14 +35,43 @@ One neat trick is that you can also create custom one-off templates by adding th
 
 # Development
 
-Casper styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
+Casper styles are compiled using Gulp/PostCSS to polyfill future CSS spec. 
+
+You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. 
+
+INSTALL YARN
 
 ```bash
-# install dependencies
-yarn install
+# install YARN
+sudo curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt
 
+sudo echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo
+
+sudo apt update && sudo apt install yarn
+
+yarn --version
+
+sudo yarn set version berry
+```
+
+INSTALL GULP
+
+```bash
+# install gulp
+sudo npm install gulp-cli -g
+
+sudo npm install gulp -D
+
+sudo npm install -g npm
+
+```
+
+After that, from the theme's root directory:
+
+```bash
 # run development server
 yarn dev
+
 ```
 
 Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
