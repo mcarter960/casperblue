@@ -42,7 +42,7 @@ You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp]
 INSTALL YARN
 
 ```bash
-# install YARN
+# install yarn
 sudo curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt
 
 sudo echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo
