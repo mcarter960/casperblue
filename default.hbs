@@ -128,10 +128,11 @@
 <script type="text/javascript">
 window.ss360Config = {
     style: {
+        themeColor: "#15202B",
         searchBox: {
             border: {
                 color: "#FFFFFF",
-                radius: "16px"
+                radius: "20px"
             },
             text: {
                 color: "#FFFFFF",
@@ -140,12 +141,13 @@ window.ss360Config = {
             background: {
                 color: "#15202B"
             },
-            padding: "10px",
+            padding: "12px",
             icon: {
                 image: "magnifier",
-                color: "#C2C2C2"
+                color: "#B7B7B7"
             }
-        }
+        },
+        animationSpeed: 500
     },
     tracking: {
         providers: []
@@ -156,21 +158,28 @@ window.ss360Config = {
     },
     siteId: "casperblue.devops10.com",
     suggestions: {
+        show: false,
         minChars: "4"
     },
+    searchBox: {
+        placeholder: "Search...",
+        selector: ""
+    },
     results: {
+        fullScreenConfig: {
+            trigger: "#ss360-trigger",
+            caption: "Search this site"
+        },
         num: "6",
-        moreResultsPagingSize: "10",
+        moreResultsPagingSize: "6",
         moreResultsButton: null
     },
     layout: {
         mobile: {
-            type: "grid",
             showUrl: true,
             gridColsMd: 1
         },
         desktop: {
-            type: "grid",
             showUrl: true,
             gridColsXl: 2,
             gridColsLg: 2
@@ -184,14 +193,14 @@ window.ss360Config = {
 
 var e=document.createElement("script");
 e.type="module";
-e.src="https://cdn.sitesearch360.com/v13/sitesearch360-v13.min.js";
+e.src="https://cdn.sitesearch360.com/sitesearch360-v12.mjs";
 document.getElementsByTagName("body")[0].appendChild(e);
 
 e=document.createElement("script");
 e.type="text/javascript";
 e.async=!0;
 e.setAttribute("nomodule", "nomodule");
-e.src="https://cdn.sitesearch360.com/v13/sitesearch360-v13.min.js";
+e.src="https://cdn.sitesearch360.com/sitesearch360-v12.min.js";
 document.getElementsByTagName("body")[0].appendChild(e);
 </script>
 <!-- End of Site Search 360 script -->
