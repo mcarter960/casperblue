@@ -11,6 +11,148 @@ If you're just looking to download the latest release of Ghost with the default 
 
 &nbsp;
 
+## YOU MUST USE CODE INJECTION for Blue Colors - Temporary until I edit "screen.css"
+
+```
+<style>
+    
+.site-main {
+    background: #15202B;
+} 
+.site-nav-main{
+    background: #15202B; 
+}
+.page-template .site-main, .post-full-content, .post-template .site-main, .site-main {
+    background: #15202B;
+}
+.site-header-background {
+    background: #15202B;
+}
+.site-nav {
+    background: #15202B;
+}
+    
+.site-header-background:not(.responsive-header-img) .site-nav-left-wrapper:after, .site-nav-main .site-nav-left-wrapper:after {
+    background: linear-gradient(90deg,rgba(9,10,11,0) 0,#15202B00);
+}
+
+.site-nav-main .site-nav-left-wrapper:after {
+    right: 0;
+    background: linear-gradient(to right, color(#15202B l(-5%) a(0)) 0%,color(#15202B l(-5%)) 0%);
+}
+.site-archive-header .no-image{
+    background: #15202B;
+    }
+.post-feed {
+    background: #15202B;
+}
+.read-next {
+    background:     #15202B;
+}
+.read-next-card {
+    background: #15202B; 
+}    
+.site-footer{
+    background: #15202B;
+}
+    
+.subscribe-overlay {      
+     border: 1px solid;
+     background: #15202B;
+}
+.subscribe-form {
+    border: 1px solid;
+    background: #15202B;
+}
+.subscribe-email {
+    border: 1px solid;
+    background: #15202B;
+}
+.subscribe-overlay .subscribe-email {
+    border: 1px solid;  
+}
+.subscribe-form button {
+    height: 46px;      
+}
+.subscribe-form-title {
+   color: rgba(255, 255, 255, 0.75); 
+}
+    
+.post-full-title {
+    color: rgba(255, 255, 255, 0.75);
+}
+    .post-feed  {
+        background: #15202B;
+    }
+    .post-card-excerpt {
+        color: rgba(255, 255, 255, 0.75);
+    }
+.post-card-title {
+    color: rgba(255, 255, 255, 0.75);
+    }
+
+    .post-full-content {
+    color: rgba(255, 255, 255, 0.75);
+    background: #15202B;
+    }
+
+    .post-full-custom-excerpt {
+    color: rgba(255, 255, 255, 0.75);
+    }
+    .post-full-content code {
+        color: #fff;
+        background: #15202B;
+    }
+    
+.post-full-byline-meta h4 a {
+    color: rgba(255, 255, 255, 0.75);
+}
+.post-full-content a {
+    color: rgba(255, 255, 255, 0.75);
+    word-break: break-word;
+    box-shadow: var(--darkgrey) 0 -1px 0 inset;
+    transition: all 0.2s ease-in-out;
+}
+.post-full-content strong,
+.post-full-content em {
+    color: rgba(255, 255, 255, 0.75);
+}
+    
+.post-full-content h1,
+.post-full-content h2,
+.post-full-content h3,
+.post-full-content h4,
+.post-full-content h5,
+.post-full-content h6 {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+    
+.site-archive-header .no-image {
+    color: rgba(255, 255, 255, 0.75);
+}
+    
+.no-image .author-social-link a {
+    color: rgba(255, 255, 255, 0.75);
+}
+.post-card-byline-content a {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 600;
+}
+    
+@media  {
+.page-template .site-main, .post-full-content, .post-template .site-main, .site-main {
+    background: #15202B;
+    }
+.post-full-custom-excerpt {     
+    color: rgba(255, 255, 255, 0.75);
+    }
+}
+   
+</style>
+
+```
+
 # First time using a Ghost theme?
 
 Ghost uses a simple templating language called [Handlebars](http://handlebarsjs.com/) for its themes.
