@@ -11,7 +11,7 @@ If you're just looking to download the latest release of Ghost with the default 
 
 &nbsp;
 
-## YOU MUST USE CODE INJECTION for Blue Colors - Temporary until I edit "screen.css"
+## FOR TESTING PURPOSES, USE the "CODE INJECTION" Feature for Blue Colors or any other Color :)
 
 ```
 <style>
