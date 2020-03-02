@@ -3015,3 +3015,16 @@ hr {
 .subscribe-form .success .message-success {
 	color: color(var(--green) l(+5%) s(-5%));
 }
+
+@media {
+	.page-template .site-main,
+	.post-full-content,
+	.post-template .site-main,
+	.site-main {
+		background: #15202b;
+	}
+
+	.post-full-custom-excerpt {
+		color: rgba(255, 255, 255, 0.75);
+	}
+}
