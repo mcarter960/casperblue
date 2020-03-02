@@ -32,6 +32,102 @@ One neat trick is that you can also create custom one-off templates by adding th
 - `tag-news.hbs` - Custom template for `/tag/news/` archive
 - `author-ali.hbs` - Custom template for `/author/ali/` archive
 
+## If you want SEARCH Feature You Need to Create an ACCOUNT: [SiteSearch360](https://www.sitesearch360.com/)
+
+## ADDING or REMOVING SiteSearch360 - STEP #1
+
+```
+edit Line 17 in "index.hbs" just under class="site-description"
+
+                <h2 class="site-description">{{@site.description}}</h2>
+                {{!--START Site Search--}}
+                <div>
+                    <section role="search" data-ss360="true">
+	                   <input type="search" id="searchBox">
+                    </section>
+                </div>
+                {{!--END Site Search--}}
+```
+
+## ADDING or REMOVING SiteSearch360 - STEP #2  
+
+```
+// Change the URL in "default.hbs" in the "Site Search 360 script"
+
+<!-- Start of Site Search 360 script (put right before the closing </body> tag) -->
+<script type="text/javascript">
+window.ss360Config = {
+    style: {
+        searchBox: {
+            border: {
+                color: "#FFFFFF",
+                radius: "16px"
+            },
+            text: {
+                color: "#FFFFFF",
+                size: "16px"
+            },
+            background: {
+                color: "#15202B"
+            },
+            padding: "10px",
+            icon: {
+                image: "magnifier",
+                color: "#C2C2C2"
+            }
+        }
+    },
+    tracking: {
+        providers: []
+    },
+    dataPoints: {
+        exclude: [],
+        single: []
+    },
+    siteId: "casperblue.devops10.com",  //CHANGE URL TO YOUR WEBSITE!!
+    suggestions: {
+        minChars: "4"
+    },
+    results: {
+        num: "6",
+        moreResultsPagingSize: "10",
+        moreResultsButton: null
+    },
+    layout: {
+        mobile: {
+            type: "grid",
+            showUrl: true,
+            gridColsMd: 1
+        },
+        desktop: {
+            type: "grid",
+            showUrl: true,
+            gridColsXl: 2,
+            gridColsLg: 2
+        },
+        navigation: {
+            position: "top"
+        }
+    },
+    showErrors: false
+};
+
+var e=document.createElement("script");
+e.type="module";
+e.src="https://cdn.sitesearch360.com/sitesearch360-v12.mjs";
+document.getElementsByTagName("body")[0].appendChild(e);
+
+e=document.createElement("script");
+e.type="text/javascript";
+e.async=!0;
+e.setAttribute("nomodule", "nomodule");
+e.src="https://cdn.sitesearch360.com/sitesearch360-v12.min.js";
+document.getElementsByTagName("body")[0].appendChild(e);
+</script>
+<!-- End of Site Search 360 script -->
+
+```
+
 
 # Development
 
