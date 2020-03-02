@@ -220,7 +220,7 @@ body {
 	padding-top: 0;
 	padding-bottom: 0;
 	color: rgba(255, 255, 255, 0.75);
-	background: #fff;
+	background: #15202b;
 	opacity: 1.0;
 }
 
@@ -298,7 +298,7 @@ body {
 .site-header-background:not(.responsive-header-img) .site-nav-left-wrapper:after,
 .site-nav-main .site-nav-left-wrapper:after {
 	right: 0;
-	background: linear-gradient(90deg, rgba(9, 10, 11, 0) 0, #15202B00);
+	background: linear-gradient(90deg, rgba(9, 10, 11, 0) 0, #15202b);
 }
 
 .site-nav-left {
@@ -1663,7 +1663,8 @@ Usage (In Ghost editor):
 	padding: 6.5vw 7vw 8vw;
 	border: color(var(--lightgrey) l(+10%)) 1px solid;
 	text-align: center;
-	background: linear-gradient(color(var(--whitegrey) l(+6%)), color(var(--whitegrey) l(+4%)));
+	/*background: linear-gradient(color*/
+	background: #15202b;
 	border-radius: 3px;
 }
 
@@ -1877,7 +1878,7 @@ Usage (In Ghost editor):
 }
 
 .read-next .post-card-byline-content a {
-	color: rgba(255, 255, 255, 0.8);
+	color: rgba(255, 255, 255, 0.75);
 }
 
 .read-next-card {
@@ -2858,7 +2859,7 @@ img {
 }
 
 .post-full-title {
-	color: rgba(255, 255, 255, 0.9);
+	color: rgba(255, 255, 255, 0.75);
 }
 
 .post-full-custom-excerpt {
@@ -2899,7 +2900,7 @@ img {
 .post-full-content h3,
 .post-full-content h4,
 .post-full-content h6 {
-	color: rgba(255, 255, 255, 0.9);
+	color: rgba(255, 255, 255, 0.75);
 }
 
 .post-full-content a {
